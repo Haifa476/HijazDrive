@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HijazDrive - Premium Car Services in Mecca, Saudi Arabia</title>
+    <meta name="description" content="HijazDrive provides top-rated premium car services in Mecca, Saudi Arabia, including hotel transfers, group transportation, and luxury VIP services for holy sites and special occasions. Book now for reliable transport in Mecca!">
+    <meta name="keywords" content="car services Mecca, premium transportation Mecca, hotel transfers Mecca, group transport Saudi Arabia, VIP services Mecca, luxury car rental Mecca, HijazDrive, Mecca transport services">
+   <meta name="author" content="HijazDrive">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="SA-02">
+    <meta name="geo.placename" content="Mecca">
+    <meta name="geo.position" content="21.3891;39.8579">
+    <meta name="icbm" content="21.3891, 39.8579">
+    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
+    <meta name="language" content="en, ar"> 
+    <meta name="revisit-after" content="7 days">
+    <meta name="rating" content="general">
+    <meta name="distribution" content="global">
+    <link rel="canonical" href="https://www.hijazdrive.com"> 
+    <link rel="alternate" hreflang="en-us" href="https://www.hijazdrive.com/en/">
+    <link rel="alternate" hreflang="ar" href="https://www.hijazdrive.com/ar/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&family=Noto+Sans+Arabic&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  
+</head>
+<body>
+    <section id="language-selection">
+        <div class="container">
+            <div class="logo">Hijaz<span>Drive</span></div>
+            <h1 class="language-title">Choose Your Language</h1>
+            <p class="language-subtitle">Select your preferred language to continue to our premium car drive services</p>
+            
+            <div class="language-options">
+                <div class="language-btn" onclick="selectLanguage('english')">
+                    <i class="fas fa-globe"></i>
+                    <span>English</span>
+                </div>
+                <div class="language-btn" onclick="selectLanguage('urdu')">
+                    <i class="fas fa-language"></i>
+                    <span>اردو</span>
+                </div>
+                <div class="language-btn" onclick="selectLanguage('sindhi')">
+                    <i class="fas fa-language"></i>
+                    <span>سنڌي</span>
+                </div>
+                <div class="language-btn" onclick="selectLanguage('arabic')">
+                    <i class="fas fa-language"></i>
+                    <span>العربية</span>
+                </div>
+                <div class="language-btn" onclick="selectLanguage('turkish')">
+                    <i class="fas fa-language"></i>
+                    <span>Türkçe</span>
+                </div>
+                <div class="language-btn" onclick="selectLanguage('indonesian')">
+                    <i class="fas fa-language"></i>
+                    <span>Bahasa Indonesia</span>
+                </div>
+            </div>
+            
+            <p>We offer premium car drive services in Mecca, Madina, Jeddah, and Taif</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <a href="#" class="nav-logo">Hijaz<span>Drive</span></a>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="#" data-key="nav.home">Home</a></li>
+                        <li><a href="#services" data-key="nav.services">Services</a></li>
+                        <li><a href="#booking" data-key="nav.book">Book Now</a></li>
+                        <li><a href="#contact" data-key="nav.contact">Contact</a></li>
+                    </ul>
+                    <div class="language-switcher">
+                        <div class="language-flag">
+                            <img src="https://flagcdn.com/w40/gb.png" alt="English" id="current-flag">
+                        </div>
+                        <select id="language-select" onchange="changeLanguage(this.value)">
+                            <option value="english">English</option>
+                            <option value="urdu">اردو</option>
+                            <option value="sindhi">سنڌي</option>
+                            <option value="arabic">العربية</option>
+                            <option value="turkish">Türkçe</option>
+                            <option value="indonesian">Bahasa Indonesia</option>
+                        </select>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 data-key="hero.title">Premium Car Drive Services</h1>
+                    <p data-key="hero.subtitle">Experience luxury and comfort with our professional drivers in the holy cities of Saudi Arabia</p>
+                    <a href="#booking" class="btn" data-key="hero.bookBtn">Book Now</a>
+                    <a href="#services" class="btn btn-secondary" data-key="hero.servicesBtn">Our Services</a>
+                    
+                    <div class="city-buttons">
+                        <a href="#" class="btn btn-accent" data-key="cities.mecca">Mecca</a>
+                        <a href="#" class="btn btn-accent" data-key="cities.madina">Madina</a>
+                        <a href="#" class="btn btn-accent" data-key="cities.jeddah">Jeddah</a>
+                        <a href="#" class="btn btn-accent" data-key="cities.taif">Taif</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-key="services.title">Our Services</h2>
+                    <p data-key="services.subtitle">We offer a wide range of premium car services to meet your needs in the holy cities</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mosque"></i>
+                        </div>
+                        <h3 data-key="services.umrah">Umrah Transportation</h3>
+                        <p data-key="services.umrahDesc">Comfortable and reliable transportation for your Umrah rituals between holy sites</p>
+                        <a href="#booking" class="btn" data-key="services.bookBtn">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <h3 data-key="services.tours">City Tours</h3>
+                        <p data-key="services.toursDesc">Explore the holy cities with our knowledgeable drivers and comfortable vehicles</p>
+                        <a href="#booking" class="btn" data-key="services.bookBtn">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <h3 data-key="services.airport">Airport Transfers</h3>
+                        <p data-key="services.airportDesc">Prompt and reliable airport pickup and drop-off services</p>
+                        <a href="#booking" class="btn" data-key="services.bookBtn">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <h3 data-key="services.hotel">Hotel Transfers</h3>
+                        <p data-key="services.hotelDesc">Comfortable transportation between hotels and holy sites</p>
+                        <a href="#booking" class="btn" data-key="services.bookBtn">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 data-key="services.group">Group Transportation</h3>
+                        <p data-key="services.groupDesc">Spacious vehicles for families and groups traveling together</p>
+                        <a href="#booking" class="btn" data-key="services.bookBtn">Book Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 data-key="services.vip">VIP Services</h3>
+                        <p data-key="services.vipDesc">Premium luxury vehicles with professional chauffeurs for special occasions</p>
+                        <a href="#booking" class="btn" data-key="services.bookBtn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <!-- Booking Section -->
+        <section id="booking" class="booking">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-key="booking.title">Book Your Drive</h2>
+                    <p data-key="booking.subtitle">Easy and convenient booking process through WhatsApp</p>
+                </div>
+                
+                <div class="booking-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3 data-key="booking.step1">Choose Service</h3>
+                        <p data-key="booking.step1Desc">Select the type of service you need</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3 data-key="booking.step2">Provide Details</h3>
+                        <p data-key="booking.step2Desc">Share pickup location, time, and other requirements</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3 data-key="booking.step3">Confirm Booking</h3>
+                        <p data-key="booking.step3Desc">Get confirmation via WhatsApp with driver details</p>
+                    </div>
+                </div>
+                
+                <h3 data-key="booking.whatsappTitle">Book directly through WhatsApp</h3>
+                <a href="https://wa.me/966538962629" class="btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> <span data-key="booking.whatsappBtn">Book on WhatsApp</span>
+                </a>
+                
+                <p style="margin-top: 20px;" data-key="booking.responseTime">Our team will respond within minutes to confirm your booking</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>HijazDrive</h3>
+                        <p data-key="footer.description">Premium car drive services in Mecca, Madina, Jeddah, and Taif. Experience comfort and reliability with our professional drivers.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-key="footer.servicesTitle">Services</h3>
+                        <ul>
+                            <li><a href="#" data-key="services.umrah">Umrah Transportation</a></li>
+                            <li><a href="#" data-key="services.tours">City Tours</a></li>
+                            <li><a href="#" data-key="services.airport">Airport Transfers</a></li>
+                            <li><a href="#" data-key="services.hotel">Hotel Transfers</a></li>
+                            <li><a href="#" data-key="services.group">Group Transportation</a></li>
+                            <li><a href="#" data-key="services.vip">VIP Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-key="footer.citiesTitle">Cities</h3>
+                        <ul>
+                            <li><a href="#" data-key="cities.mecca">Mecca</a></li>
+                            <li><a href="#" data-key="cities.madina">Madina</a></li>
+                            <li><a href="#" data-key="cities.jeddah">Jeddah</a></li>
+                            <li><a href="#" data-key="cities.taif">Taif</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-key="footer.contactTitle">Contact Us</h3>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> <span data-key="footer.address">Mecca, Saudi Arabia</span></li>
+                            <li><i class="fas fa-phone"></i> +966 538 962 629</li>
+                            <li><i class="fas fa-envelope"></i> info@hijazdrive.com</li>
+                            <li><i class="fas fa-clock"></i> <span data-key="footer.hours">24/7 Service</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 HijazDrive. <span data-key="footer.rights">All rights reserved</span>.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Back to top button for interactivity -->
+    <div id="back-to-top" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></div>
+    <script>
+        // Language translations
+        const translations = {
+            english: {
+                // Navigation
+                "nav.home": "Home",
+                "nav.services": "Services",
+                "nav.drivers": "Drivers",
+                "nav.book": "Book Now",
+                "nav.contact": "Contact",
+                
+                // Hero section
+                "hero.title": "Premium Car Drive Services",
+                "hero.subtitle": "Experience luxury and comfort with our professional drivers in the holy cities of Saudi Arabia",
+                "hero.bookBtn": "Book Now",
+                "hero.servicesBtn": "Our Services",
+                
+                // Cities
+                "cities.mecca": "Mecca",
+                "cities.madina": "Madina",
+                "cities.jeddah": "Jeddah",
+                "cities.taif": "Taif",
+                
+                // Services section
+                "services.title": "Our Services",
+                "services.subtitle": "We offer a wide range of premium car services to meet your needs in the holy cities",
+                "services.umrah": "Umrah Transportation",
+                "services.umrahDesc": "Comfortable and reliable transportation for your Umrah rituals between holy sites",
+                "services.tours": "City Tours",
+                "services.toursDesc": "Explore the holy cities with our knowledgeable drivers and comfortable vehicles",
+                "services.airport": "Airport Transfers",
+                "services.airportDesc": "Prompt and reliable airport pickup and drop-off services",
+                "services.hotel": "Hotel Transfers",
+                "services.hotelDesc": "Comfortable transportation between hotels and holy sites",
+                "services.group": "Group Transportation",
+                "services.groupDesc": "Spacious vehicles for families and groups traveling together",
+                "services.vip": "VIP Services",
+                "services.vipDesc": "Premium luxury vehicles with professional chauffeurs for special occasions",
+                "services.bookBtn": "Book Now",
+                
+                // Drivers section
+                "drivers.title": "Our Drivers",
+                "drivers.subtitle": "Meet our professional, licensed drivers who know the holy cities inside out",
+                "drivers.driver1Desc": "10 years experience. Fluent in Arabic and English.",
+                "drivers.driver2Desc": "Specialized in family transportation. Urdu and Arabic speaking.",
+                "drivers.driver3Desc": "Expert in city tours. Speaks Turkish and Arabic.",
+                "drivers.driver4Desc": "Specialized in airport transfers. Speaks Indonesian and Arabic.",
+                "drivers.requestBtn": "Request Driver",
+                
+                // Booking section
+                "booking.title": "Book Your Drive",
+                "booking.subtitle": "Easy and convenient booking process through WhatsApp",
+                "booking.step1": "Choose Service",
+                "booking.step1Desc": "Select the type of service you need",
+                "booking.step2": "Provide Details",
+                "booking.step2Desc": "Share pickup location, time, and other requirements",
+                "booking.step3": "Confirm Booking",
+                "booking.step3Desc": "Get confirmation via WhatsApp with driver details",
+                "booking.whatsappTitle": "Book directly through WhatsApp",
+                "booking.whatsappBtn": "Book on WhatsApp",   
+                                "booking.whatsappBtn": "Book on WhatsApp",
+                "booking.responseTime": "Our team will respond within minutes to confirm your booking",
+               
+                // Footer
+                "footer.description": "Premium car drive services in Mecca, Madina, Jeddah, and Taif. Experience comfort and reliability with our professional drivers.",
+                "footer.servicesTitle": "Services",
+                "footer.citiesTitle": "Cities",
+                "footer.contactTitle": "Contact Us",
+                "footer.address": "Mecca, Saudi Arabia",
+                "footer.hours": "24/7 Service",
+                "footer.rights": "All rights reserved"
+            },
+            urdu: {
+                // Navigation
+                "nav.home": "ہوم",
+                "nav.services": "خدمات",
+                "nav.drivers": "ڈرائیورز",
+                "nav.book": "ابھی بک کریں",
+                "nav.contact": "رابطہ",
+                
+                // Hero section
+                "hero.title": "پریمیم کار ڈرائیو سروسز",
+                "hero.subtitle": "سعودی عرب کے مقدس شہروں میں ہمارے پیشہ ور ڈرائیوروں کے ساتھ عیش و آرام کا تجربہ کریں",
+                "hero.bookBtn": "ابھی بک کریں",
+                "hero.servicesBtn": "ہماری خدمات",
+                
+                // Cities
+                "cities.mecca": "مکہ",
+                "cities.madina": "مدینہ",
+                "cities.jeddah": "جدہ",
+                "cities.taif": "طائف",
+                
+                // Services section
+                "services.title": "ہماری خدمات",
+                "services.subtitle": "ہم مقدس شہروں میں آپ کی ضروریات پوری کرنے کے لیے پریمیم کار سروسز کی وسیع رینج پیش کرتے ہیں",
+                "services.umrah": "عمرہ ٹرانسپورٹیشن",
+                "services.umrahDesc": "مقدس مقامات کے درمیان آپ کے عمرہ رسومات کے لیے آرام دہ اور قابل اعتماد ٹرانسپورٹیشن",
+                "services.tours": "شہری دورے",
+                "services.toursDesc": "ہمارے تجربہ کار ڈرائیوروں اور آرام دہ گاڑیوں کے ساتھ مقدس شہروں کی سیر کریں",
+                "services.airport": "ایئرپورٹ منتقلی",
+                "services.airportDesc": "فوری اور قابل اعتماد ایئرپورٹ پک اپ اور ڈراپ آف سروسز",
+                "services.hotel": "ہوٹل منتقلی",
+                "services.hotelDesc": "ہوٹلوں اور مقدس مقامات کے درمیان آرام دہ ٹرانسپورٹیشن",
+                "services.group": "گروپ ٹرانسپورٹیشن",
+                "services.groupDesc": "خاندانوں اور گروپوں کے لیے کشادہ گاڑیاں",
+                "services.vip": "وی آئی پی سروسز",
+                "services.vipDesc": "خصوصی مواقع کے لیے پیشہ ور ڈرائیوروں کے ساتھ پریمیم لگژری گاڑیاں",
+                "services.bookBtn": "ابھی بک کریں",
+                
+                // Drivers section
+                "drivers.title": "ہمارے ڈرائیورز",
+                "drivers.subtitle": "ہمارے پیشہ ور، лицен یافتہ ڈرائیورز سے ملیں جو مقدس شہروں کو اچھی طرح جانتے ہیں",
+                "drivers.driver1Desc": "10 سال کا تجربہ۔ عربی اور انگریزی میں روانی۔",
+                "drivers.driver2Desc": "خاندانی ٹرانسپورٹیشن میں مہارت۔ اردو اور عربی بولنے والے۔",
+                "drivers.driver3Desc": "شہری دوروں میں ماہر۔ ترکی اور عربی بولتے ہیں۔",
+                "drivers.driver4Desc": "ایئرپورٹ منتقلی میں مہارت۔ انڈونیشی اور عربی بولتے ہیں۔",
+                "drivers.requestBtn": "ڈرائیور کی درخواست کریں",
+                
+                // Booking section
+                "booking.title": "اپنی ڈرائیو بک کریں",
+                "booking.subtitle": "واٹس ایپ کے ذریعے آسان اور سہل بکنگ کا عمل",
+                "booking.step1": "سروس منتخب کریں",
+                "booking.step1Desc": "اپنی ضرورت کے مطابق سروس کا انتخاب کریں",
+                "booking.step2": "تفصیلات فراہم کریں",
+                "booking.step2Desc": "پک اپ مقام، وقت، اور دیگر تقاضوں کا اشتراک کریں",
+                "booking.step3": "بکنگ کی تصدیق کریں",
+                "booking.step3Desc": "واٹس ایپ کے ذریعے ڈرائیور کی تفصیلات کے ساتھ تصدیق حاصل کریں",
+                "booking.whatsappTitle": "واٹس ایپ کے ذریعے براہ راست بک کریں",
+                "booking.whatsappBtn": "واٹس ایپ پر بک کریں",
+                "booking.responseTime": "ہماری ٹیم منٹوں میں آپ کی بکنگ کی تصدیق کے لیے جواب دے گی",
+                
+                // Footer
+                "footer.description": "مکہ، مدینہ، جدہ اور طائف میں پریمیم کار ڈرائیو سروسز۔ ہمارے پیشہ ور ڈرائیوروں کے ساتھ آرام اور قابل اعتمادی کا تجربہ کریں۔",
+                "footer.servicesTitle": "خدمات",
+                "footer.citiesTitle": "شہر",
+                "footer.contactTitle": "ہم سے رابطہ کریں",
+                "footer.address": "مکہ، سعودی عرب",
+                "footer.hours": "24/7 سروس",
+                "footer.rights": "جملہ حقوق محفوظ ہیں"
+            },
+            sindhi: {
+                // Navigation
+                "nav.home": "گھر",
+                "nav.services": "خدمتون",
+                "nav.drivers": "ڊرائيور",
+                "nav.book": "ھاڻي بک ڪريو",
+                "nav.contact": "رابطو",
+                
+                // Hero section
+                "hero.title": "پريميئم ڪار ڊرائيو سروسز",
+                "hero.subtitle": "سعودي عرب جي پاڪ شهرن ۾ اسان جي پروفيشنل ڊرائيورن سان عيش ۽ آرام جو تجربو ڪريو",
+                "hero.bookBtn": "ھاڻي بک ڪريو",
+                "hero.servicesBtn": "اسان جون خدمتون",
+                
+                // Cities
+                "cities.mecca": "مڪو",
+                "cities.madina": "مدينو",
+                "cities.jeddah": "جده",
+                "cities.taif": "طائف",
+                
+                // Services section
+                "services.title": "اسان جون خدمتون",
+                "services.subtitle": "اسين پاڪ شهرن ۾ توھان جي ضرورتن کي پورو ڪرڻ لاءِ پريميئم ڪار سروسز جي وسيع رينج پيش ڪريون ٿا",
+                "services.umrah": "عمرہ ٽرانسپورٽيشن",
+                "services.umrahDesc": "پاڪ مقامن جي وچ ۾ توھان جي عمرہ رسمن لاءِ آرامده ۽ قابل اعتماد ٽرانسپورٽيشن",
+                "services.tours": "شھري دورا",
+                "services.toursDesc": "اسان جي تجربيڪار ڊرائيورن ۽ آرامده گاڏين سان پاڪ شھرن جي سير ڪريو",
+                "services.airport": "ايئرپورٽ منتقلي",
+                "services.airportDesc": "فوري ۽ قابل اعتماد ايئرپورٽ پک اپ ۽ ڊراپ آف سروسز",
+                "services.hotel": "ھوٽل منتقلي",
+                "services.hotelDesc": "ھوٽلن ۽ پاڪ مقامن جي وچ ۾ آرامده ٽرانسپورٽيشن",
+                "services.group": "گروپ ٽرانسپورٽيشن",
+                "services.groupDesc": "خاندانن ۽ گروپن لاءِ کشادہ گاڏيون جيڪي گڏ سفر ڪن ٿا",
+                "services.vip": "وي آءِ پي سروسز",
+                "services.vipDesc": "خاص موقعن لاءِ پروفيشنل چوفورن سان پريميئم لگزري گاڏيون",
+                "services.bookBtn": "ھاڻي بک ڪريو",
+                
+                // Drivers section
+                "drivers.title": "اسان جا ڊرائيور",
+                "drivers.subtitle": "اسان جي پروفيشنل، ليکيل ڊرائيورن سان ملاقات ڪريو جيڪي پاڪ شھرن کي چڱيءَ طرح ڄاڻن ٿا",
+                "drivers.driver1Desc": "10 سالن جو تجربو. عربي ۽ انگريزي ۾ رواني.",
+                "drivers.driver2Desc": "خانداني ٽرانسپورٽيشن ۾ مھارت. اردو ۽ عربي ڳالهائيندڙ.",
+                "drivers.driver3Desc": "شھري دورن ۾ ماهر. ترڪي ۽ عربي ڳالهائيندڙ.",
+                "drivers.driver4Desc": "ايئرپورٽ منتقلي ۾ مھارت. انڊونيشي ۽ عربي ڳالهائيندڙ.",
+                "drivers.requestBtn": "ڊرائيور جي درخواست ڪريو",
+                
+                // Booking section
+                "booking.title": "پنھنجي ڊرائيو بک ڪريو",
+                "booking.subtitle": "واٽس ايپ ذريعي آسان ۽ سھولت وارو بکنگ جو عمل",
+                "booking.step1": "سروس چونڊيو",
+                "booking.step1Desc": "پنھنجي ضرورت مطابق سروس چونڊيو",
+                "booking.step2": "تفصيلات مهيا ڪريو",
+                "booking.step2Desc": "پک اپ جڳھ، وقت، ۽ ٻيون گهرجون شيئر ڪريو",
+                "booking.step3": "بکنگ جي تصديق ڪريو",
+                "booking.step3Desc": "واٽس ايپ ذريعي ڊرائيور جي تفصيلن سان تصديق حاصل ڪريو",
+                "booking.whatsappTitle": "واٽس ايپ ذريعي سڌو بک ڪريو",
+                "booking.whatsappBtn": "واٽس ايپ تي بک ڪريو",
+                "booking.responseTime": "اسان جي ٽيم منٽن ۾ توھان جي بکنگ جي تصديق لاءِ جواب ڏيندي",
+                
+                // Footer
+                "footer.description": "مڪو، مدينو، جده ۽ طائف ۾ پريميئم ڪار ڊرائيو سروسز. اسان جي پروفيشنل ڊرائيورن سان آرام ۽ قابل اعتمادي جو تجربو ڪريو.",
+                "footer.servicesTitle": "خدمتون",
+                "footer.citiesTitle": "شھر",
+                "footer.contactTitle": "اسان سان رابطو ڪريو",
+                "footer.address": "مڪو، سعودي عرب",
+                "footer.hours": "24/7 سروس",
+                "footer.rights": "سڀ حق محفوظ آهن"
+            },
+            arabic: {
+                // Navigation
+                "nav.home": "الرئيسية",
+                "nav.services": "الخدمات",
+                "nav.drivers": "السائقون",
+                "nav.book": "احجز الآن",
+                "nav.contact": "اتصل بنا",
+                
+                // Hero section
+                "hero.title": "خدمات النقل الفاخرة",
+                "hero.subtitle": "استمتع بالفخامة والراحة مع سائقينا المحترفين في المدن المقدسة في المملكة العربية السعودية",
+                "hero.bookBtn": "احجز الآن",
+                "hero.servicesBtn": "خدماتنا",
+                
+                // Cities
+                "cities.mecca": "مكة",
+                "cities.madina": "المدينة",
+                "cities.jeddah": "جدة",
+                "cities.taif": "الطائف",
+                
+                // Services section
+                "services.title": "خدماتنا",
+                "services.subtitle": "نقدم مجموعة واسعة من خدمات السيارات الفاخرة لتلبية احتياجاتك في المدن المقدسة",
+                "services.umrah": "نقل العمرة",
+                "services.umrahDesc": "نقل مريح وموثوق لأداء مناسك العمرة بين المواقع المقدسة",
+                "services.tours": "جولات المدينة",
+                "services.toursDesc": "استكشف المدن المقدسة مع سائقينا المطلعين ومركباتنا المريحة",
+                "services.airport": "نقل المطار",
+                "services.airportDesc": "خدمات نقل سريعة وموثوقة من وإلى المطار",
+                "services.hotel": "نقل الفنادق",
+                "services.hotelDesc": "نقل مريح بين الفنادق والمواقع المقدسة",
+                "services.group": "نقل المجموعات",
+                "services.groupDesc": "مركبات فسيحة للعائلات والمجموعات المسافرة معًا",
+                "services.vip": "خدمات VIP",
+                "services.vipDesc": "مركبات فاخرة مع سائقين محترفين للمناسبات الخاصة",
+                "services.bookBtn": "احجز الآن",
+                
+                // Drivers section
+                "drivers.title": "سائقونا",
+                "drivers.subtitle": "تعرف على سائقينا المحترفين والمرخصين الذين يعرفون المدن المقدسة جيدًا",
+                "drivers.driver1Desc": "خبرة 10 سنوات. يتحدث العربية والإنجليزية بطلاقة.",
+                "drivers.driver2Desc": "متخصص في نقل العائلات. يتحدث الأردية والعربية.",
+                "drivers.driver3Desc": "خبير في جولات المدينة. يتحدث التركية والعربية.",
+                "drivers.driver4Desc": "متخصص في نقل المطار. يتحدث الإندونيسية والعربية.",
+                "drivers.requestBtn": "طلب السائق",
+                
+                // Booking section
+                "booking.title": "احجز رحلتك",
+                "booking.subtitle": "عملية حجز سهلة ومريحة عبر واتساب",
+                "booking.step1": "اختر الخدمة",
+                "booking.step1Desc": "حدد نوع الخدمة التي تحتاجها",
+                "booking.step2": "قدم التفاصيل",
+                "booking.step2Desc": "شارك موقع الاستلام والوقت والمتطلبات الأخرى",
+                "booking.step3": "تأكيد الحجز",
+                "booking.step3Desc": "احصل على تأكيد عبر واتساب مع تفاصيل السائق",
+                "booking.whatsappTitle": "احجز مباشرة عبر واتساب",
+                "booking.whatsappBtn": "احجز عبر واتساب",
+                "booking.responseTime": "سيرد فريقنا خلال دقائق لتأكيد حجزك",
+                
+                // Footer
+                "footer.description": "خدمات نقل السيارات الفاخرة في مكة، المدينة، جدة، والطائف. استمتع بالراحة والموثوقية مع سائقينا المحترفين.",
+                "footer.servicesTitle": "الخدمات",
+                "footer.citiesTitle": "المدن",
+                "footer.contactTitle": "اتصل بنا",
+                "footer.address": "مكة، المملكة العربية السعودية",
+                "footer.hours": "خدمة 24/7",
+                "footer.rights": "جميع الحقوق محفوظة"
+            },
+            turkish: {
+                // Navigation
+                "nav.home": "Ana Sayfa",
+                "nav.services": "Hizmetler",
+                "nav.drivers": "Sürücüler",
+                "nav.book": "Şimdi Rezervasyon Yap",
+                "nav.contact": "İletişim",
+                
+                // Hero section
+                "hero.title": "Premium Araç Servisleri",
+                "hero.subtitle": "Suudi Arabistan'ın kutsal şehirlerinde profesyonel sürücülerimizle lüks ve konforu yaşayın",
+                "hero.bookBtn": "Şimdi Rezervasyon Yap",
+                "hero.servicesBtn": "Hizmetlerimiz",
+                
+                // Cities
+                "cities.mecca": "Mekke",
+                "cities.madina": "Medine",
+                "cities.jeddah": "Cidde",
+                "cities.taif": "Taif",
+                
+                // Services section
+                "services.title": "Hizmetlerimiz",
+                "services.subtitle": "Kutsal şehirlerde ihtiyaçlarınızı karşılamak için geniş bir premium araç hizmet yelpazesi sunuyoruz",
+                "services.umrah": "Umre Taşımacılığı",
+                "services.umrahDesc": "Kutsal mekanlar arasında umre ibadetleriniz için konforlu ve güvenilir taşımacılık",
+                "services.tours": "Şehir Turları",
+                "services.toursDesc": "Bilgili sürücülerimiz ve konforlu araçlarımızla kutsal şehirleri keşfedin",
+                "services.airport": "Havalimanı Transferleri",
+                "services.airportDesc": "Hızlı ve güvenilir havalimanı karşılama ve bırakma hizmetleri",
+                "services.hotel": "Otel Transferleri",
+                "services.hotelDesc": "Oteller ve kutsal mekanlar arasında konforlu taşımacılık",
+                "services.group": "Grup Taşımacılığı",
+                "services.groupDesc": "Birlikte seyahat eden aileler ve gruplar için geniş araçlar",
+                "services.vip": "VIP Hizmetler",
+                "services.vipDesc": "Özel durumlar için profesyonel şoförlü premium lüks araçlar",
+                "services.bookBtn": "Şimdi Rezervasyon Yap",
+                
+                // Drivers section
+                "drivers.title": "Sürücülerimiz",
+                "drivers.subtitle": "Kutsal şehirleri iyi bilen profesyonel, lisanslı sürücülerimizle tanışın",
+                "drivers.driver1Desc": "10 yıl deneyim. Arapça ve İngilizce biliyor.",
+                "drivers.driver2Desc": "Aile taşımacılığı konusunda uzman. Urduca ve Arapça konuşuyor.",
+                "drivers.driver3Desc": "Şehir turlarında uzman. Türkçe ve Arapça konuşuyor.",
+                "drivers.driver4Desc": "Havalimanı transferlerinde uzman. Endonezyaca ve Arapça konuşuyor.",
+                "drivers.requestBtn": "Sürücü Talep Et",
+                
+                // Booking section
+                "booking.title": "Sürüşünüzü Rezerve Edin",
+                "booking.subtitle": "WhatsApp üzerinden kolay ve uygun rezervasyon işlemi",
+                "booking.step1": "Hizmet Seçin",
+                "booking.step1Desc": "İhtiyacınız olan hizmet türünü seçin",
+                "booking.step2": "Detayları Sağlayın",
+                "booking.step2Desc": "Alış yeri, saat ve diğer gereksinimleri paylaşın",
+                "booking.step3": "Rezervasyonu Onaylayın",
+                "booking.step3Desc": "WhatsApp üzerinden sürücü detaylarıyla onay alın",
+                "booking.whatsappTitle": "WhatsApp üzerinden doğrudan rezervasyon yapın",
+                "booking.whatsappBtn": "WhatsApp'ta Rezervasyon Yap",
+                "booking.responseTime": "Ekibimiz rezervasyonunuzu onaylamak için dakikalar içinde yanıt verecek",
+                
+                // Footer
+                "footer.description": "Mekke, Medine, Cidde ve Taif'te premium araç sürüş hizmetleri. Profesyonel sürücülerimizle konfor ve güvenilirlik yaşayın.",
+                "footer.servicesTitle": "Hizmetler",
+                "footer.citiesTitle": "Şehirler",
+                "footer.contactTitle": "Bize Ulaşın",
+                "footer.address": "Mekke, Suudi Arabistan",
+                "footer.hours": "24/7 Hizmet",
+                "footer.rights": "Tüm hakları saklıdır"
+            },
+            indonesian: {
+                // Navigation
+                "nav.home": "Beranda",
+                "nav.services": "Layanan",
+                "nav.drivers": "Pengemudi",
+                "nav.book": "Pesan Sekarang",
+                "nav.contact": "Kontak",
+                
+                // Hero section
+                "hero.title": "Layanan Mengemudi Mobil Premium",
+                "hero.subtitle": "Nikmati kemewahan dan kenyamanan bersama pengemudi profesional kami di kota-kota suci Arab Saudi",
+                "hero.bookBtn": "Pesan Sekarang",
+                "hero.servicesBtn": "Layanan Kami",
+                
+                // Cities
+                "cities.mecca": "Mekkah",
+                "cities.madina": "Madinah",
+                "cities.jeddah": "Jeddah",
+                "cities.taif": "Taif",
+                
+                // Services section
+                "services.title": "Layanan Kami",
+                "services.subtitle": "Kami menawarkan berbagai layanan mobil premium untuk memenuhi kebutuhan Anda di kota-kota suci",
+                "services.umrah": "Transportasi Umrah",
+                "services.umrahDesc": "Transportasi yang nyaman dan andal untuk ritual umrah Anda antara situs-situs suci",
+                "services.tours": "Tur Kota",
+                "services.toursDesc": "Jelajahi kota-kota suci dengan pengemudi berpengetahuan dan kendaraan yang nyaman",
+                "services.airport": "Transfer Bandara",
+                "services.airportDesc": "Layanan penjemputan dan pengantaran bandara yang cepat dan andal",
+                "services.hotel": "Transfer Hotel",
+                "services.hotelDesc": "Transportasi nyaman antara hotel dan situs suci",
+                "services.group": "Transportasi Kelompok",
+                "services.groupDesc": "Kendaraan luas untuk keluarga dan kelompok yang bepergian bersama",
+                "services.vip": "Layanan VIP",
+                "services.vipDesc": "Kendaraan mewah premium dengan sopir profesional untuk acara khusus",
+                "services.bookBtn": "Pesan Sekarang",
+                
+                // Drivers section
+                "drivers.title": "Pengemudi Kami",
+                "drivers.subtitle": "Temui pengemudi berlisensi profesional kami yang mengenal kota-kota suci dengan baik",
+                "drivers.driver1Desc": "Pengalaman 10 tahun. Lancar berbahasa Arab dan Inggris.",
+                "drivers.driver2Desc": "Spesialis dalam transportasi keluarga. Berbicara dalam bahasa Urdu dan Arab.",
+                "drivers.driver3Desc": "Ahli dalam tur kota. Berbicara dalam bahasa Turki dan Arab.",
+                "drivers.driver4Desc": "Spesialis dalam transfer bandara. Berbicara dalam bahasa Indonesia dan Arab.",
+                "drivers.requestBtn": "Minta Pengemudi",
+                
+                // Booking section
+                "booking.title": "Pesan Perjalanan Anda",
+                "booking.subtitle": "Proses pemesanan yang mudah dan nyaman melalui WhatsApp",
+                "booking.step1": "Pilih Layanan",
+                "booking.step1Desc": "Pilih jenis layanan yang Anda butuhkan",
+                "booking.step2": "Berikan Detail",
+                "booking.step2Desc": "Bagikan lokasi penjemputan, waktu, dan persyaratan lainnya",
+                "booking.step3": "Konfirmasi Pemesanan",
+                "booking.step3Desc": "Dapatkan konfirmasi melalui WhatsApp dengan detail pengemudi",
+                "booking.whatsappTitle": "Pesan langsung melalui WhatsApp",
+                "booking.whatsappBtn": "Pesan di WhatsApp",
+                "booking.responseTime": "Tim kami akan merespons dalam beberapa menit untuk mengonfirmasi pemesanan Anda",
+                
+                // Footer
+                "footer.description": "Layanan mengemudi mobil premium di Mekkah, Madinah, Jeddah, dan Taif. Nikmati kenyamanan dan keandalan bersama pengemudi profesional kami.",
+                "footer.servicesTitle": "Layanan",
+                "footer.citiesTitle": "Kota",
+                "footer.contactTitle": "Hubungi Kami",
+                "footer.address": "Mekkah, Arab Saudi",
+                "footer.hours": "Layanan 24/7",
+                "footer.rights": "Hak cipta dilindungi"
+            }
+        };
+
+        // Function to set language
+        function selectLanguage(lang) {
+            localStorage.setItem('language', lang);
+            document.getElementById('language-selection').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            changeLanguage(lang);
+        }
+
+        // Function to change language
+        function changeLanguage(lang) {
+            const elements = document.querySelectorAll('[data-key]');
+            elements.forEach(element => {
+                const key = element.getAttribute('data-key');
+                if (translations[lang] && translations[lang][key]) {
+                    element.textContent = translations[lang][key];
+                }
+            });
+
+            if (lang === 'arabic' || lang === 'urdu' || lang === 'sindhi') {
+                document.body.classList.add('rtl', lang);
+                document.documentElement.setAttribute('lang', lang === 'arabic' ? 'ar' : lang === 'urdu' ? 'ur' : 'sd');
+            } else {
+                document.body.classList.remove('rtl', 'arabic', 'urdu', 'sindhi');
+                document.documentElement.setAttribute('lang', lang === 'turkish' ? 'tr' : lang === 'indonesian' ? 'id' : 'en');
+            }
+
+            const flagImages = {
+                english: 'https://flagcdn.com/w40/gb.png',
+                urdu: 'https://flagcdn.com/w40/pk.png',
+                sindhi: 'https://flagcdn.com/w40/pk.png',
+                arabic: 'https://flagcdn.com/w40/sa.png',
+                turkish: 'https://flagcdn.com/w40/tr.png',
+                indonesian: 'https://flagcdn.com/w40/id.png'
+            };
+            document.getElementById('current-flag').src = flagImages[lang];
+            document.getElementById('language-select').value = lang;
+        }
+
+        // Mobile menu toggle
+        document.getElementById('mobile-menu').addEventListener('click', () => {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        });
+
+        // Check for saved language preference
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('language');
+            if (savedLang) {
+                selectLanguage(savedLang);
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Show/hide back to top button
+        window.onscroll = function() {
+            const button = document.getElementById('back-to-top');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>
