@@ -50,7 +50,6 @@
             background-image: linear-gradient(135deg, var(--light) 0%, #e9edf2 100%);
         }
 
-        /* ===== Container ===== */
         .container {
             width: 90%;
             max-width: 1200px;
@@ -58,7 +57,6 @@
             padding: 0 15px;
         }
 
-        /* ===== Buttons ===== */
         .btn {
             display: inline-block;
             background: var(--primary);
@@ -134,7 +132,6 @@
             margin: 20px auto 0;
         }
 
-        /* ===== Navbar ===== */
         header {
             background: white;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -207,7 +204,6 @@
             border: 1px solid #ddd;
         }
 
-        /* ===== Hero Section ===== */
         .hero {
             background: linear-gradient(rgba(10,25,47,0.85), rgba(10,25,47,0.85)), 
                         url('https://images.unsplash.com/photo-1581090464669-1e7b14f68c97?auto=format&fit=crop&w=1920&q=80');
@@ -240,7 +236,6 @@
             gap: 15px;
         }
 
-        /* ===== Service Cards ===== */
         .services {
             padding: 80px 0;
         }
@@ -283,7 +278,6 @@
             margin-bottom: 20px;
         }
 
-        /* ===== Booking Steps ===== */
         .booking {
             padding: 80px 20px;
             background: #f8fafc;
@@ -334,7 +328,6 @@
             color: white;
         }
 
-        /* ===== City Guides Section ===== */
         .city-guides {
             padding: 80px 0;
         }
@@ -431,7 +424,6 @@
             text-decoration: underline;
         }
 
-        /* ===== Info Cards ===== */
         .info-section {
             padding: 60px 0;
             background: #f8fafc;
@@ -474,7 +466,6 @@
             line-height: 1.7;
         }
 
-        /* ===== Language Selection ===== */
         #language-selection {
             min-height: 100vh;
             display: flex;
@@ -616,7 +607,6 @@
             padding-top: 20px;
         }
 
-        /* ===== Back to Top Button ===== */
         #back-to-top {
             position: fixed;
             bottom: 20px;
@@ -715,7 +705,6 @@
             }
         }
 
-        /* RTL Support */
         body.rtl {
             direction: rtl;
             text-align: right;
@@ -769,7 +758,6 @@
     </section>
 
     <div id="main-content" style="display: none;">
-        <!-- Header -->
         <header>
             <div class="container">
                 <nav class="navbar">
@@ -801,7 +789,6 @@
             </div>
         </header>
 
-        <!-- Hero Section -->
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
@@ -819,7 +806,6 @@
             </div>
         </section>
 
-        <!-- Services Section -->
         <section id="services" class="services">
             <div class="container">
                 <div class="section-title">
@@ -879,9 +865,6 @@
             </div>
         </section>
 
-        <!-- City Guides Section -->
-        
-        <!-- Fix broken markup in city guides section -->
         <section id="city-guides" class="city-guides">
             <div class="container">
                 <div class="section-title">
@@ -894,7 +877,6 @@
                 <button><i class="fas fa-search"></i> <span data-key="guides.searchBtn">Search</span></button>
             </div>
 
-            <!-- Mecca Guide -->
             <div id="mecca-guide" class="city-section">
                 <div class="section-title">
                     <h2 data-key="mecca.title">Mecca - The Holiest City in Islam</h2>
@@ -934,7 +916,6 @@
                 </div>
             </div>
 
-            <!-- Medina Guide -->
             <div id="madina-guide" class="city-section" style="margin-top: 80px;">
                 <div class="section-title">
                     <h2 data-key="madina.title">Medina - The Radiant City</h2>
@@ -974,7 +955,6 @@
                 </div>
             </div>
 
-            <!-- Taif Guide -->
             <div id="taif-guide" class="city-section" style="margin-top: 80px;">
                 <div class="section-title">
                     <h2 data-key="taif.title">Taif - The City of Roses</h2>
@@ -1015,7 +995,6 @@
             </div>
         </section>
 
-        <!-- Booking Section -->
         <section id="booking" class="booking">
             <div class="container">
                 <div class="section-title">
@@ -1053,7 +1032,6 @@
             </div>
         </section>
 
-        <!-- Info Section -->
         <section class="info-section">
             <div class="container">
                 <div class="info-cards">
@@ -1077,7 +1055,6 @@
             </div>
         </section>
 
-        <!-- Footer -->
         <footer id="contact">
             <div class="container">
                 <div class="footer-content">
@@ -1123,20 +1100,19 @@
                     </div>
                 </div>
                 <div class="copyright">
-                    <p>&copy; 2023 HijazDrive. All rights reserved.</p>
+                    <p>&copy; 2025 HijazDrive. All rights reserved.
+                                Developed by H♥Hameed
+                    </p>
                 </div>
             </div>
         </footer>
 
-        <!-- Back to Top Button -->
         <div id="back-to-top">
             <i class="fas fa-arrow-up"></i>
         </div>
     </div>
 
-    <!-- Add the following inside your <script> tag, replacing the translations object with this extended version: -->
-<script>
-    // Language translations
+  <script>
     const translations = {
          english: {
             "nav.home": "Home",
@@ -1609,16 +1585,13 @@
     }
 };
 
-    // Language Selection
     function selectLanguage(lang) {
         document.getElementById('language-selection').style.display = 'none';
         document.getElementById('main-content').style.display = 'block';
         changeLanguage(lang);
     }
 
-        // Language Change
-        function changeLanguage(lang) {
-        // Update flag based on language
+        function changeLanguage(lang) {        
         const flagImg = document.getElementById('current-flag');
         switch(lang) {
             case 'english':
@@ -1640,17 +1613,16 @@
                 flagImg.src = 'https://flagcdn.com/w40/id.png';
                 break;
         }
-        // Set RTL for appropriate languages
+        
         if (lang === 'arabic' || lang === 'urdu' || lang === 'sindhi') {
             document.body.classList.add('rtl');
         } else {
             document.body.classList.remove('rtl');
         }
-        // Update content based on language
+        
         updateContent(lang);
     }
 
-    // Update content based on selected language
     function updateContent(lang) {
         document.querySelectorAll('[data-key]').forEach(element => {
             const key = element.getAttribute('data-key');
@@ -1660,12 +1632,10 @@
         });
     }
 
-// Mobile Menu Toggle
     document.getElementById('mobile-menu').addEventListener('click', function() {
         document.getElementById('nav-links').classList.toggle('active');
     });
 
-    // Back to Top Button
     window.addEventListener('scroll', function() {
         const backToTop = document.getElementById('back-to-top');
         if (window.scrollY > 300) {
@@ -1679,7 +1649,6 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
-        // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
